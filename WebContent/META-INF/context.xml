@@ -1,0 +1,18 @@
+<Context docBase="mvc_spring_ts" path="/mvc_spring_ts" reloadable="true" source="org.eclipse.jst.jee.server:mvc_spring_ts">
+    <Resource
+        name="jdbc/mvc_spring_ts"
+        type="javax.sql.DataSource"
+        auth="Container"
+        factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://mvc2018.ctgspmilw4ce.ap-northeast-1.rds.amazonaws.com:3306/suj201907_kida_yuga?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+        username="kida.yuga"
+        password="zdAhgEyw"
+
+        maxTotal="5"
+        maxIdle="5"
+        minIdle="1"
+        initialSize="1"
+    />
+</Context>

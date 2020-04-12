@@ -1,0 +1,14 @@
+本番用、エラー内容を見せないための処理
+
+<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/jsp/share/Error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>400</error-code>
+		<location>/WEB-INF/jsp/share/Error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/jsp/share/Error.jsp</location>
+	</error-page>

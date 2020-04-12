@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.line {
+	display: inline-block;
+}
+
+header {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+	float: left;
+}
+
+.center{
+	width: 500px;               
+    height: 90px; 
+	margin:0 auto;	
+}
+
+.paging {
+	display:inline-flex;
+}
+
+.pageButton {
+	margin: 5px 5px;
+}
+
+.error {
+	color: red;
+}
+
+.submitBtn {
+	margin: 5px 0;
+}
